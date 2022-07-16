@@ -38,6 +38,7 @@ public class Adactin2 extends BaseClass{
 		WebElement password = a.getPassword();
 		enterText(username, "stefandselvaraj");
 		enterText(password, "Reverse@123");
+		System.out.println("Today i am practicing cucumber");
 		
 		
 //		driver.findElement(By.id("username")).sendKeys("stefandselvaraj");
